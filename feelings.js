@@ -135,7 +135,7 @@
         }
         $currentBody.append($('<blockquote>', {
             class: "blockquote",
-            html: line[2]
+            html: thistextline
         }));
     });
     $currentAcc.appendTo($main);
