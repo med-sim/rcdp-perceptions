@@ -133,6 +133,7 @@
     });
     $currentAcc.appendTo($main);
     $('.collapse').collapse();
+    $('.collapse').collapse('hide');
 /*
 <div id="accordion">
 
