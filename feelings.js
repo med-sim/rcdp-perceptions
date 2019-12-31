@@ -111,7 +111,7 @@
                         class: 'btn btn-link collapsed',
                         "data-toggle": "collapse",
                         "data-target": '#' + currentHeading.replace(/\W/gi, ""),
-                        "aria-expanded": "true",
+                        "aria-expanded": "false",
                         "aria-controls": currentHeading.replace(/\W/gi, ""),
                         text: currentHeading
                     }))
