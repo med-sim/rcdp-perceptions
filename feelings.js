@@ -89,7 +89,7 @@
             });
             $('<p>', {
                 class: "h3",
-                style: "margin-top: 40px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 0px; border: 5px; color:#FFFFFF; border-radius: 5px; background-color:#295135;",
+                style: "margin-top: 40px; padding-top: 10px; padding-left: 3px; padding-bottom: 10px; margin-bottom: 0px; border: 5px; color:#FFFFFF; border-radius: 5px; background-color:#295135;",
                 text: currentHeader
             }).appendTo($main);
         }
