@@ -68,10 +68,16 @@
     //add header
     $main.append($('<p>', {
         class: "h2",
-        text: "Perceptions of Practicing Interdisciplinary Health Professionals on Rapid Cycle Deliberate Practice Simulation"
+        html: "Perceptions of Practicing Interdisciplinary Health Professionals on Rapid Cycle Deliberate Practice Simulation <br /><small class="text-muted">Kelly Roszczynialski MS, MD.*, Shilpa Register PhD, OD., and Marjorie Lee White MD,MPPM, MA<br /><a href=mailto:knroszcz@stanford.edu>knroszcz@stanford.edu</a></small>"
     }));
-
-
+    
+    $main.append($('h3', {text: "Abstract"});
+    
+    $main.append($('<p>').append($('h4', {text: "Introduction"})).append("Rapid Cycle Deliberate Practice (RCDP) is a relatively new method for delivering simulation for a structured algorithm-based clinical content. We sought to understand how a group of practicing emergency medicine healthcare professionals would perceive RCDP as a learning method."));
+    $main.append($('<p>').append($('h4', {text: "Methods"})).append("This was a qualitative study of participants’ reactions to RCDP simulation during an orientation process to a new Freestanding Emergency Department. Focus groups were held following the simulation sessions to investigate the participants' reactions to RCDP as well as the experience of multiple professions participating. Two investigators independently coded the focus group transcripts to detect themes and developed a list of codes which were then confirmed by consensus.  Data were organized into themes with contributing codes."));
+    $main.append($('<p>').append($('h4', {text: "Results"})).append("Thirty-one individuals participated in the focus groups including physicians, nurse practitioners, nurses, respiratory therapists, and patient care technicians. Four themes were detected: the procedural components of RCDP, the behavioral response to RCDP, learning through RCDP, and RCDP as inter-professional experience. The participants' views of emotions and interruptions and pauses had the discrepant interpretations. All the comments made are catalogued below."));
+    $main.append($('<p>').append($('h4', {text: "Conculsions"})).append("Participants received rapid cycle deliberate practice simulation positively. Initial negative reactions to the interruptions and pauses of RCDP dissipated as the simulation progressed. Ultimately, learners agreed that RCDP was extremely effective as compared to traditional simulation for medical resuscitation training due to the authenticity of the multidisciplinary aspect. This suggests that RCDP may be an effective tool for continuing education of practicing healthcare professionals."));
+    
     //create accordion
     let currentHeader = "";
     let currentHeading = "";
