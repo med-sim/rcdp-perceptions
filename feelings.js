@@ -68,7 +68,7 @@
     //add header
     $main.append($('<p>', {
         class: "h2",
-        html: 'Perceptions of Practicing Interdisciplinary Health Professionals on Rapid Cycle Deliberate Practice Simulation <br />'
+        html: 'Perceptions of Practicing Interdisciplinary Health Professionals on Rapid Cycle Deliberate Practice Simulation'
     }));
     $main.append($('<h4>', {html: '<small class="text-muted">Kelly Roszczynialski MS, MD.*, Shilpa Register PhD, OD., and Marjorie Lee White MD,MPPM, MA<br /><a href=mailto:knroszcz@stanford.edu>knroszcz@stanford.edu</a></small>'}));
     $main.append($('<h3>', {text: "Abstract"}));
