@@ -131,7 +131,7 @@
         //add in actual text
         let thistextline = line[2];
         if (line[3]) {
-            thistextline = '<span class="oi oi-' + line[3] + '" title="' + line[3] + '" aria-hidden="true"></span>' + thistextline;
+            thistextline = '<span class="oi oi-' + line[3] + '" title="' + line[3] + '" aria-hidden="true" style="margin-right: 15px;"></span>' + thistextline;
         }
         $currentBody.append($('<blockquote>', {
             class: "blockquote",
