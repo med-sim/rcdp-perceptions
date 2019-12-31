@@ -89,6 +89,7 @@
             });
             $('<p>', {
                 class: "h3",
+                style: "margin-top: 40px"
                 text: currentHeader
             }).appendTo($main);
         }
