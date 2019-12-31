@@ -78,6 +78,8 @@
     $main.append($('<p>').append($('<h4>', {text: "Results"})).append("Thirty-one individuals participated in the focus groups including physicians, nurse practitioners, nurses, respiratory therapists, and patient care technicians. Four themes were detected: the procedural components of RCDP, the behavioral response to RCDP, learning through RCDP, and RCDP as inter-professional experience. The participants' views of emotions and interruptions and pauses had the discrepant interpretations. All the comments made are catalogued below."));
     $main.append($('<p>').append($('<h4>', {text: "Conculsions"})).append("Participants received rapid cycle deliberate practice simulation positively. Initial negative reactions to the interruptions and pauses of RCDP dissipated as the simulation progressed. Ultimately, learners agreed that RCDP was extremely effective as compared to traditional simulation for medical resuscitation training due to the authenticity of the multidisciplinary aspect. This suggests that RCDP may be an effective tool for continuing education of practicing healthcare professionals."));
     
+    $main.append($('<h3>', {text: "Feedback"}));
+    
     //create accordion
     let currentHeader = "";
     let currentHeading = "";
@@ -95,7 +97,7 @@
                 id: currentHeader.replace(/\W/gi, "")
             });
             $('<p>', {
-                class: "h3",
+                class: "h5",
                 style: "margin-top: 40px; padding-top: 10px; padding-left: 3px; padding-bottom: 10px; margin-bottom: 0px; border: 5px; color:#FFFFFF; border-radius: 5px; background-color:#295135;",
                 text: currentHeader
             }).appendTo($main);
