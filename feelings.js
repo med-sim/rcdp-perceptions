@@ -131,7 +131,7 @@
         //add in actual text
         let thistextline = line[2];
         if (line[3]) {
-            thistextline = '<img src="/images/' + line[3] + '.svg" alt="' + line[3] + '">' + thistextline;
+            thistextline = '<img src="images/' + line[3] + '.svg" alt="' + line[3] + '">' + thistextline;
         }
         $currentBody.append($('<blockquote>', {
             class: "blockquote",
