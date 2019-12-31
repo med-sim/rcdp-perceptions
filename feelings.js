@@ -3,7 +3,7 @@
     'use strict';
 
     const data = [
-        ['RCDP Procedure', 'Ability to adjust and analyze actions from real-time feedback', '<p class="text-center"><img src="images/one.png" style="max-width:600px; width:85%;"></p>I liked the real time feedback. Being able to say stop and Give us the tip about the back board and all that. I love that.', undefined],
+        ['RCDP Procedure', 'Ability to adjust and analyze actions from real-time feedback', 'I liked the real time feedback. Being able to say stop and Give us the tip about the back board and all that. I love that.', undefined],
         ['RCDP Procedure', 'Ability to adjust and analyze actions from real-time feedback', "I felt like when we first started and she said pause she gave us some really good feedback and then we started over that second time we were even better than the first time. We paused again and we start over again the third time we were better than the first two. And I felt like it was just progressively getting better because we were getting those little tidbits of information that we needed throughout.", undefined],
         ['RCDP Procedure', 'Ability to adjust and analyze actions from real-time feedback', "The feedback that real time was really helpful and kind of made you think about stuff that you might not think about especially after doing it for so long.", undefined],
         ['RCDP Procedure', 'Ability to adjust and analyze actions from real-time feedback', "I do so much better when somebody is giving constructive feedback. I just I learn better from that I take it home with me better. So that was extremely helpful to have real time feedback.", undefined],
@@ -77,6 +77,7 @@
     let currentHeading = "";
     let $currentAcc;
     let $currentBody;
+    let imagecount = 1;
     data.forEach(function (line) {
         if (line[0] !== currentHeader) {
             if ($currentAcc) {
@@ -97,7 +98,8 @@
             currentHeading = line[1];
             $currentBody = $('<div>', {
                 class: "card-body"
-            });
+            }).append($('<p class="text-center"><img src="images/0' + imagecount + '.png" style="max-width:600px; width:85%;"></p>'));
+            imagecount += 1;
             //create card
             $('<div>', {
                 class: "card"
