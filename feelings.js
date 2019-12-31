@@ -70,7 +70,7 @@
         class: "h2",
         html: 'Perceptions of Practicing Interdisciplinary Health Professionals on Rapid Cycle Deliberate Practice Simulation'
     }));
-    $main.append($('<h4>', {html: '<small class="text-muted">Kelly Roszczynialski MS, MD.*, Shilpa Register PhD, OD., and Marjorie Lee White MD,MPPM, MA<br /><a href=mailto:knroszcz@stanford.edu>knroszcz@stanford.edu</a></small>'}));
+    $main.append($('<h4>', {html: '<small class="text-muted">Kelly Roszczynialski MS, MD.*, Shilpa Register PhD, OD., and Marjorie Lee White MD,MPPM, MA<footer class="blockquote-footer"><a href=mailto:knroszcz@stanford.edu>knroszcz@stanford.edu</a></small>'</footer>}));
     $main.append($('<h3>', {text: "Abstract"}));
     
     $main.append($('<p>').append($('<h4>', {text: "Introduction"})).append("Rapid Cycle Deliberate Practice (RCDP) is a relatively new method for delivering simulation for a structured algorithm-based clinical content. We sought to understand how a group of practicing emergency medicine healthcare professionals would perceive RCDP as a learning method."));
